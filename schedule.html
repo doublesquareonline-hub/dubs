@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - Dublin United Basketball Stars</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="schedule-page-body">
+
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Logo.png" alt="DUBS Logo" class="logo-img">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Achievement</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="schedule.html" class="active">Schedule</a></li>
+                    <li><a href="contact.html" class="contact-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#" class="social-circle fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-circle insta"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-circle yelp"><i class="fab fa-yelp"></i></a>
+            </div>
+        </div>
+        <!--<div class="top-bar"></div> -->
+    </header>
+
+    <main class="schedule-main">
+        <div class="container">
+            <h1 class="page-title">Schedule</h1>
+            <p class="page-subtitle">Subject to change due to facility availability. Always confirm with your coach.</p>
+
+            <div class="schedule-grid">
+                <!-- Card 1: Beginners & Intermediate -->
+                <div class="sched-card">
+                    <h2 class="sched-card-title">Beginners & Intermediate Level</h2>
+
+                    <div class="sched-block">
+                        <div class="sched-row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location: JM Amador School Dublin, CA</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Mondays & Wednesdays</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-clock"></i>
+                            <span>6:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+
+                    <!-- Second block (Duplicate info or different day? Image implies second entry) -->
+                    <div class="sched-block">
+                        <!-- Image shows just Date/Time but maybe location implied? Or maybe image had 2 slots 
+                              Let's replicate pattern: It looks like a second block for same group or different location details not fully visible.
+                              Actually, looking at crop: It repeats "Mondays & Wednesdays" "6:00 PM - 9:00 PM".
+                              I will add it as valid data row.
+                         -->
+                        <div class="sched-row">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Mondays & Wednesdays</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-clock"></i>
+                            <span>6:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="sched-notes">
+                        <div class="note-row"><i class="fas fa-check"></i> Arrive 10-15 minutes early</div>
+                        <div class="note-row"><i class="fas fa-check"></i> Bring water and basketball shoes</div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Competitive Level -->
+                <div class="sched-card">
+                    <h2 class="sched-card-title">Competitive Level (AAU)</h2>
+
+                    <div class="sched-block">
+                        <div class="sched-row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location: Cottonwood Creek Elementary & Fallon Middle School GYM Dublin, CA</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Tuesdays & Thursdays</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-clock"></i>
+                            <span>6:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="sched-block">
+                        <div class="sched-row">
+                            <i class="fas fa-map-marker-alt"></i> <!-- Or down arrow/sub location -->
+                            <span>Middle School GYM Dublin, CA</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Tuesdays & Thursdays</span>
+                        </div>
+                        <div class="sched-row">
+                            <i class="far fa-clock"></i>
+                            <span>6:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="sched-notes">
+                        <div class="note-row"><i class="fas fa-check"></i> Location may vary - confirm with coach</div>
+                        <div class="note-row"><i class="fas fa-check"></i> Arrive 15 minutes early for warm-up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p class="footer-title">Contact Us</p>
+            <p class="footer-text">Phone / Text / Whatsapp : (925) 701-0313</p>
+            <div class="footer-socials">
+                <a href="#" class="social-circle fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-circle insta"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-circle yelp"><i class="fab fa-yelp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
